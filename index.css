@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    background-color: #DBDBDB;
+    background: repeating-radial-gradient(ellipse farthest-corner at top left, #DBDBDB 0%, #0055C4 100%);
+    flex-direction: column;
+  }
+
+  .action {
+    background: #eaeaea;
+    padding: 2em;
+    border-radius: 30px;
+    max-width: 420px;
+    margin: 1em;
+  }
+
+  div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #eaeaea;
+    padding: 2em;
+    border-radius: 30px;
+    max-width: 420px;
+    margin: 1em;
+  }
